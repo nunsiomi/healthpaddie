@@ -6,7 +6,7 @@ from langchain_community.document_loaders import DirectoryLoader, TextLoader, Py
 from langchain_community.vectorstores import FAISS
 
 
-DATA_DIR = "C:\\Users\\OLAMIDE\\Downloads\\DHA - Copy-20251122T192346Z-1-001\\DHA - Copy\\health_data"
+DATA_DIR = "C:\Users\USER\Documents\DH\healthpaddie\health_data"
 VECTORSTORE_DIR = "./vectorstore"
 
 def load_documents():
