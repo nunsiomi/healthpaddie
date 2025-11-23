@@ -16,6 +16,15 @@ from modules.db import save_chat_turn
 
 # ---------- ENV + CONSTANTS ----------
 
+VECTORSTORE_DIR = "vectorstore"
+
+# Auto-build vectorstore if missing (Streamlit Cloud)
+if not os.path.exists(VECTORSTORE_DIR):
+    st.write("Building vectorstore on first run... please wait ⏳")
+    from build_vectorstore import create_vectorstore
+    create_vectorstore()
+
+
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
