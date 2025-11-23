@@ -6,7 +6,7 @@ from langchain_community.document_loaders import DirectoryLoader, TextLoader, Py
 from langchain_community.vectorstores import FAISS
 
 
-DATA_DIR = "C:\\Users\\USER\\Documents\\healthpaddie\\health_data"
+DATA_DIR = "./health_data"
 VECTORSTORE_DIR = "./vectorstore"
 
 def load_documents():
