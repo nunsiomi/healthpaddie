@@ -6,7 +6,7 @@ A RAG-based digital companion delivering verified health information in local Af
 
 HealthPaddie is an AI-powered health assistant designed to provide trusted, verified, and easy-to-understand health information especially for people in rural or underserved communities across Africa.
 
-Built during the DataHER Africa Hackathon 2025 (#DHAD25), HealthPaddie helps users ask health-related questions and receive answers grounded in real medical documents (WHO, NCDC, UNICEF).
+Built during the DataHER Africa Hackathon 2025 (#DHAD25) https://dataherafrica.org, HealthPaddie helps users ask health-related questions and receive answers grounded in real medical documents (WHO, NCDC, UNICEF).
 
 HealthPaddie stands out with:
 - Multilingual support — English, Hausa, Yoruba, Igbo
@@ -18,6 +18,8 @@ HealthPaddie stands out with:
 - Text-to-Speech (TTS) for accessibility
 
 - Groq LLM inference for fast, safe responses
+
+## Find our application live here: https://healthpaddiee.streamlit.app
 
 ## Problem Statement
 
